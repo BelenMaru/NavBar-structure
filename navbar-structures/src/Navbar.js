@@ -6,6 +6,10 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
+        <img src={logo} alt ="logo" />
+        <button className="nav-toggle">
+          
+        </button>
       </div>
       </div>
 
