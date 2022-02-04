@@ -3,6 +3,8 @@ import {links} from "./data";
 
 const Sidebar = () => {
   return (
+    <>
+    <h4>Sidebar</h4>
     <div className="links-container show-container">
       <ul className="links">
         {links.map((link) => {
@@ -15,6 +17,7 @@ const Sidebar = () => {
         })}
       </ul>
     </div>
+    </>
   );
 };
 
