@@ -1,5 +1,6 @@
 import react from "react";
-import { FaBars,FaTwitter } from "react-icons/fa";
+import { FaBars, FaTwitter } from "react-icons/fa";
+import { links } from "./data";
 import logo from "./logo.svg";
 
 const Navbar = () => {
@@ -13,9 +14,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="links-container show container">
-          <ul className="links">
-          
-          </ul>
+          <ul className="links"></ul>
         </div>
         <ul className="social-icons">
           <li>
