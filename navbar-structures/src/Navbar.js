@@ -10,13 +10,15 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button className="nav-toggle"
-           onClick={()=> setShowLinks(!showLinks)}>
+          <button
+            className="nav-toggle"
+            onClick={() => setShowLinks(!showLinks)}
+          >
             <FaBars />
           </button>
         </div>
         {showLinks && (
-           <div className="links-container show-container">
+          <div className="links-container show-container">
             <ul className="links">
               {links.map((link) => {
                 const { id, url, text } = link;
@@ -29,7 +31,17 @@ const Navbar = () => {
             </ul>
           </div>
         )}
-        
+        <ul className="social-icons">
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
+            return (
+              <li key={id}>
+                <a href={url}>{icon}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </nav>
   );
 };
