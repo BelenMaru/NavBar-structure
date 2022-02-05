@@ -1,4 +1,4 @@
-import React from "./react";
+import React from "react";
 import {links} from "./data";
 
 const Sidebar = () => {

@@ -1,9 +1,10 @@
-import react from "react";
+import react,{useState} from "react";
 import { FaBars, FaTwitter } from "react-icons/fa";
 import { links, social } from "./data";
 import logo from "./logo.svg";
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false);
   return (
     <nav>
       <div className="nav-center">
