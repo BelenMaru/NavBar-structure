@@ -99,6 +99,16 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
+/*  global classes */
+
+/* section */
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
 .nav-header {
   display: flex;
   align-items: center;
