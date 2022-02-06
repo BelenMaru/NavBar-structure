@@ -144,6 +144,12 @@ nav {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
+.links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
