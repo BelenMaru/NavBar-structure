@@ -109,6 +109,15 @@ p {
   max-width: var(--max-width);
 }
 
+/*Navbar
+*/
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
+.logo {
+  height: 40px;
+}
 .nav-header {
   display: flex;
   align-items: center;
