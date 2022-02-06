@@ -164,3 +164,14 @@ nav {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
+.social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-primary-7);
+  }
