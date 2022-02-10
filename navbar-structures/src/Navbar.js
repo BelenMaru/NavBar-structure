@@ -1,4 +1,4 @@
-import react, { useState, useRef, useEffect } from "react";
+import react, { useState, useRef } from "react";
 import { FaBars, FaTwitter } from "react-icons/fa";
 import { links, social } from "./data";
 import logo from "./logo.svg";
@@ -7,15 +7,7 @@ const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
-  // useEffect(() => {
-  //   const linksHeight = linksRef.current.getBoundingClientRect().height;
-  //   // console.log(linksHeight)
-  //   if (showLinks) {
-  //     linksContainerRef.current.style.height = `${linksHeight}px`;
-  //   } else {
-  //     linksContainerRef.current.style.height = "0px";
-  //   }
-  // }, [showLinks]);
+  
   return (
     <nav>
       <div className="nav-center">
